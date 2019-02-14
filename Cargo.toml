@@ -1,0 +1,8 @@
+[package]
+name = "get_external_ip"
+version = "0.1.0"
+authors = ["Ivan Cvitkovic <icvitkovic@gmail.com>"]
+
+[dependencies.curl]
+version = "0.4.19"
+features = ["static-curl", "static-ssl"]
