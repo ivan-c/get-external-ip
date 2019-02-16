@@ -3,6 +3,12 @@ name = "get-external-ip"
 version = "0.1.0"
 authors = ["Ivan Cvitkovic <icvitkovic@gmail.com>"]
 
+
+
 [dependencies.curl]
 version = "0.4.19"
 features = ["static-curl", "static-ssl"]
+
+# To compile for musl instead call cargo with the argument `--target=x86_64-unknown-linux-musl`
+# [build]
+# target = "x86_64-unknown-linux-musl"
