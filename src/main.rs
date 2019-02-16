@@ -22,5 +22,8 @@ fn main() {
     }).unwrap();
     easy.perform().unwrap();
 
-    println!("{}", easy.response_code().unwrap());
+    let response_code = easy.response_code().unwrap() as i32;
+    if response_code != 200 {
+        std::process::exit(response_code);
+    }
 }
