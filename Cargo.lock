@@ -38,7 +38,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "get_external_ip"
+name = "get-external-ip"
 version = "0.1.0"
 dependencies = [
  "curl 0.4.19 (registry+https://github.com/rust-lang/crates.io-index)",

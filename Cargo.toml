@@ -1,5 +1,5 @@
 [package]
-name = "get_external_ip"
+name = "get-external-ip"
 version = "0.1.0"
 authors = ["Ivan Cvitkovic <icvitkovic@gmail.com>"]
 
